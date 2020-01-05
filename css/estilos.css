@@ -19,3 +19,43 @@ body{
     margin-top: 0;
     padding-top: 1em;
 }
+
+.content{
+    display: flex;
+}
+
+.content-data{
+    width: 20%;
+    padding: 0 10px;
+    font-size: 0.9em;
+    flex-shrink: 1;
+}
+
+.content-description{
+    width: 80%;
+    padding: 0 30px;
+    flex-shrink: 1;
+}
+
+.part-content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.part-one{
+    width: 33.33%;
+    padding: 10px;
+
+}
+
+.part-two{
+    width: 33.33%;
+    padding: 10px;
+
+}
+
+.part-three{
+    width: 33.33%;
+    padding: 10px;
+}
